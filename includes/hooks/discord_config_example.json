@@ -1,0 +1,34 @@
+{
+	"globals": {
+		"whmcsAdminURL": "https://my.whmcs.tld/management/",
+		"companyName": "BigWetFish"
+	},
+	"channel0": {
+		"discordWebHookURL": "https://discord.com/api/webhooks/etc",
+		"pendingOrder": true,
+		"orderPaid": true,
+		"orderAccepted": true,
+		"orderCancelled": true,
+		"orderCancelledRefunded": true,
+		"orderFraud": true,
+		"shoppingCartCheckoutCompletePage": true
+	},
+	"channel1": {
+		"discordWebHookURL": "https://discord.com/api/webhooks/etc",
+		"invoicePaid": true,
+		"invoiceRefunded": true,
+		"invoiceLateFee": true,
+		"cancellationRequest": true,
+		"invoiceCreationPreEmail": true
+	},
+	"channel2": {
+		"discordWebHookURL": "https://discord.com/api/webhooks/etc",
+		"ticketFlagged": true
+	},
+	"channel3": {
+		"discordWebHookURL": "https://discord.com/api/webhooks/etc",
+		"networkIssueAdd": true,
+		"networkIssueEdit": true,
+		"networkIssueClosed": true
+	}
+}
